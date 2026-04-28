@@ -1,0 +1,27 @@
+name: taller-ia
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  # Core scientific computing
+  - numpy
+  - matplotlib>=3.9
+  # Reinforcement Learning
+  - gymnasium>=1.0
+  - gymnasium-box2d
+  - pygame>=2.1
+  # Video recording (for RecordVideo wrapper)
+  - moviepy
+  - ffmpeg
+  # Jupyter environment
+  - jupyter
+  - ipython
+  - notebook
+  - ipykernel
+  # Progress bars
+  - tqdm
+  # Utilities
+  - pip:
+    # Any pip-only packages can go here if needed
